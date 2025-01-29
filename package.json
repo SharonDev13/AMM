@@ -1,9 +1,25 @@
 {
-  "dependencies": {
-    "hardhat": "^2.22.18",
-    "init": "^0.1.2"
+  "name": "vhs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18",
+    "hardhat-ethers": "^1.0.1",
+    "mocha": "^11.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/defender-admin-client": "^1.54.6",
+    "thirdweb": "^5.87.0"
   }
 }
